@@ -17,7 +17,8 @@ $loader->registerNamespaces([
  */
 $loader->registerClasses([
     'Litlecms\Modules\Frontend\Module' => APP_PATH . '/modules/frontend/Module.php',
-    'Litlecms\Modules\Cli\Module'      => APP_PATH . '/modules/cli/Module.php'
+    'Litlecms\Modules\Cli\Module'      => APP_PATH . '/modules/cli/Module.php',
+    'Litlecms\Modules\Backend\Module'      => APP_PATH . '/modules/backend/Module.php'
 ]);
 
 $loader->register();

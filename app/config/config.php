@@ -14,7 +14,7 @@ return new \Phalcon\Config([
         'host'     => 'localhost',
         'username' => 'saridin',
         'password' => 'b1sm1llah',
-        'dbname'   => 'litlecms',
+        'dbname'   => 'littlecms',
         'charset'  => 'utf8',
     ],
 

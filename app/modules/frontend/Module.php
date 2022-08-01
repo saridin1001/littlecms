@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Litlecms\Modules\Frontend;
+namespace Littlecms\Modules\Frontend;
 
 use Phalcon\Di\DiInterface;
 use Phalcon\Loader;
@@ -21,8 +21,8 @@ class Module implements ModuleDefinitionInterface
         $loader = new Loader();
 
         $loader->registerNamespaces([
-            'Litlecms\Modules\Frontend\Controllers' => __DIR__ . '/controllers/',
-            'Litlecms\Modules\Frontend\Models' => __DIR__ . '/models/',
+            'Littlecms\Modules\Frontend\Controllers' => __DIR__ . '/controllers/',
+            'Littlecms\Modules\Frontend\Models' => __DIR__ . '/models/',
         ]);
 
         $loader->register();

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Litlecms\Modules\Cli;
+namespace Littlecms\Modules\Cli;
 
 use Phalcon\Di\DiInterface;
 use Phalcon\Loader;
@@ -19,7 +19,7 @@ class Module implements ModuleDefinitionInterface
         $loader = new Loader();
 
         $loader->registerNamespaces([
-            'Litlecms\Modules\Cli\Tasks' => __DIR__ . '/tasks/',
+            'Littlecms\Modules\Cli\Tasks' => __DIR__ . '/tasks/',
         ]);
 
         $loader->register();

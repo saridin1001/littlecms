@@ -53,4 +53,4 @@ defined('APPLICATION_ENV') || define('APPLICATION_ENV', getenv('APPLICATION_ENV'
 /**
  * @const PTOOLSPATH The path to the Phalcon Developers Tools.
  */
-defined('PTOOLSPATH') || define('PTOOLSPATH', '/home/saridin/.config/composer/vendor/phalcon/devtools');
+defined('PTOOLSPATH') || define('PTOOLSPATH', '/opt/phalcon/vendor/phalcon/devtools');

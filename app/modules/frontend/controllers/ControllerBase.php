@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Litlecms\Modules\Frontend\Controllers;
+namespace Littlecms\Modules\Frontend\Controllers;
 
 use Phalcon\Mvc\Controller;
 

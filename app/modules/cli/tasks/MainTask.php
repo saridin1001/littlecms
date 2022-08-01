@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Litlecms\Modules\Cli\Tasks;
+namespace Littlecms\Modules\Cli\Tasks;
 
 class MainTask extends \Phalcon\Cli\Task
 {

@@ -65,7 +65,7 @@ $di->set('flash', function () {
  */
 $di->setShared('dispatcher', function() {
     $dispatcher = new Dispatcher();
-    $dispatcher->setDefaultNamespace('Litlecms\Modules\Frontend\Controllers');
+    $dispatcher->setDefaultNamespace('Littlecms\Modules\Frontend\Controllers');
 
     return $dispatcher;
 });

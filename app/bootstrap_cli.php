@@ -42,7 +42,7 @@ $console = new ConsoleApp($di);
  * Register console modules
  */
 $console->registerModules([
-    'cli' => ['className' => 'Litlecms\Modules\Cli\Module']
+    'cli' => ['className' => 'Littlecms\Modules\Cli\Module']
 ]);
 
 /**

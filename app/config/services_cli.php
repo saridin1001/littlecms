@@ -8,6 +8,6 @@ use Phalcon\Cli\Dispatcher;
 */
 $di->setShared('dispatcher', function() {
     $dispatcher = new Dispatcher();
-    $dispatcher->setDefaultNamespace('Litlecms\Modules\Cli\Tasks');
+    $dispatcher->setDefaultNamespace('Littlecms\Modules\Cli\Tasks');
     return $dispatcher;
 });

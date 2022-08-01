@@ -45,7 +45,7 @@ try {
      * Register application modules
      */
     $application->registerModules([
-        'frontend' => ['className' => 'Litlecms\Modules\Frontend\Module'],
+        'frontend' => ['className' => 'Littlecms\Modules\Frontend\Module'],
     ]);
 
     /**

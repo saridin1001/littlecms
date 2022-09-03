@@ -9,9 +9,9 @@ class IndexController extends ControllerBase
     public function indexAction()
     {
         
-        phpinfo();
-        die;
-        #$this->view->setLayout('ltelayout');
+        #phpinfo();
+        #die;
+        $this->view->setLayout('ltelayout');
     }
 
 }
